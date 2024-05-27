@@ -1,0 +1,81 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+body{
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-image: url(./nguyen-dang-hoang-nhu-qDgTQOYk6B8-unsplash.jpg);
+    background-repeat: no-repeat;
+    background-position: center center;
+    background-size: cover;
+}
+.app{
+    background-color: #fff;
+    /* height: 450px; */
+    width: 45%;
+    border-radius: 30px;
+    box-shadow: 0 0 10px;
+}
+.app h1{
+    text-align: center;
+    font-size: 2.3rem;
+    font-weight: 550;
+    margin-top: 10px;
+    margin-bottom: 30px;
+}
+.app .quiz{
+    display: flex;
+    flex-direction: column;
+    padding: 0 20px;
+}
+.app .quiz #question{
+    margin-bottom: 20px;
+}
+.app .quiz #answer-buttons{
+    display: flex;
+    flex-direction: column;
+}
+.app .quiz #answer-buttons button{
+    margin-bottom: 10px;
+    font-size: 1.1rem;
+    text-align: left;
+    padding: 5px 20px;
+    border: 1px solid #7e7b7b;
+    border-radius: 5px;
+    box-shadow: 0 0 3px;
+    cursor: pointer;
+}
+.app .quiz #answer-buttons button:hover{
+    background-color: rgb(184, 176, 176);
+    color: #fff;
+}
+.correct{
+    background-color: green;
+    color: white;
+}
+.incorrect{
+    background-color: red;
+    color: white;
+}
+.app .quiz #next-btn{
+    margin-top: 10px;
+    margin-bottom: 20px;
+    font-size: 1.5rem;
+    padding: 6px 0;
+    background-color: rgb(24, 24, 24);
+    color: #fff;
+    border: 1px solid #070707;
+    border-radius: 8px;
+    box-shadow: 0 0 10px;
+    cursor: pointer;
+}
+.app .quiz #next-btn:hover{
+    background-color: white;
+    color: black;
+}
+
+
